@@ -18,3 +18,8 @@ após isso podemos explorar quais serviços estao rodando na máquina, pra isso 
 aberta e até a versão do serviço que está rodando, mas nesse caso usaremos <nmap 10.10.29.148>
 ![bandicam 2024-11-06 05-53-47-126](https://github.com/user-attachments/assets/3c968772-d61c-4ca6-b3f0-911e65049363)
 
+o nmap escaneou, e deu o resultado que duas portas estão abertas, ssh e http
+
+- ssh: é um protocolo seguro que permite acessar e gerenciar dispositivos remotamente através de uma rede. Ele é amplamente utilizado para administrar servidores e computadores de maneira segura, localizada na porta 22
+
+- http: é um protocolo usado para transferir páginas web e outros tipos de dados através da internet. Ele é o protocolo base para a navegação na web. Diferente do SSH, o HTTP não tem criptografia por padrão
