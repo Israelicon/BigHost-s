@@ -36,4 +36,10 @@ ele achou index.php e info.php, o info.php pode ser útil quando encontramos uma
 navegando na página podemos ver um diretório chamado "Contat Us"
 ![bandicam 2024-11-06 05-58-57-382](https://github.com/user-attachments/assets/398c16bf-5e10-4b12-abca-da81cfcd3e05)
 
+é nele onde podemos testar a falha de LFI, Local File Inclusion
+- LFI (Local File Inclusion) é uma vulnerabilidade comum em aplicativos web, que permite a um invasor incluir e acessar arquivos do próprio servidor da aplicação. Essa falha ocorre quando um aplicativo permite que o usuário especifique o caminho de um arquivo sem uma validação adequada, permitindo que o invasor inclua arquivos locais do servidor.
+
+Imagine que um site tenha uma URL como esta:
+
+- http://exemplo.com/index.php?page=home.php
 
