@@ -43,3 +43,21 @@ Imagine que um site tenha uma URL como esta:
 
 - http://exemplo.com/index.php?page=home.php
 
+Se o aplicativo não filtra adequadamente o valor do parâmetro page, um invasor pode manipulá-lo para tentar incluir arquivos locais, como:
+
+- http://exemplo.com/index.php?page=/etc/passwd
+
+Se o servidor for vulnerável, o arquivo /etc/passwd (em sistemas Linux) será exibido, revelando informações sobre os usuários do sistema, como nesse caso aqui:
+![bandicam 2024-11-06 05-59-35-939](https://github.com/user-attachments/assets/aa96c5f6-8532-4ce1-8fb9-ea959e796c8c)
+
+podemos perceber que existe um usuario chamado john, podemos testar quebrar a senha pra testar na porta 22, que é o ssh, caso quebrado podemos logar no ssh do sistema
+
+pra testar, podemos usar o hydra, um ferramenta de bruteforce de senhas, como nesse exemplo
+![bandicam 2024-11-06 06-04-25-241](https://github.com/user-attachments/assets/58ec5297-ebda-460b-bb0c-bf14041fef79)
+
+descobrimos que a senha é john, agora com a senha em mãos, vamos logar no ssh, pra logar no ssh é simples bastar colocar esse comando no terminal
+
+- ssh john@10.10.29.148
+
+após isso coloque a senha e pronto, voce já está dentro do ssh
+![bandicam 2024-11-06 06-06-41-478](https://github.com/user-attachments/assets/3350e8b1-4dbd-4ebf-97c5-9086ac4f85df)
