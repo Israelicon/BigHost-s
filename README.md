@@ -27,5 +27,8 @@ o nmap escaneou, e deu o resultado que duas portas estão abertas, ssh e http
 podemos colocar o ip no navegador pra ver a pagina do servidor web
 ![bandicam 2024-11-06 05-54-32-214](https://github.com/user-attachments/assets/fd249904-9fc0-43c4-9092-61ba16c50a7d)
 
-parece um site pra compra de domínio e hosts
+parece um site pra compra de domínio e hosts, podemos explorar os diretórios pra ver onde tem arquivos ou páginas secretas, podemos usar um bruteforce de diretórios chamado Gobuster, usamos url e 
+caminho da wordlists 
+![bandicam 2024-11-06 05-57-55-127](https://github.com/user-attachments/assets/15c94c57-cfe9-4441-98a4-e78aa88ea307)
+
 
