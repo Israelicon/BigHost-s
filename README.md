@@ -61,3 +61,15 @@ descobrimos que a senha é john, agora com a senha em mãos, vamos logar no ssh,
 
 após isso coloque a senha e pronto, voce já está dentro do ssh
 ![bandicam 2024-11-06 06-06-41-478](https://github.com/user-attachments/assets/3350e8b1-4dbd-4ebf-97c5-9086ac4f85df)
+
+após isso, vamos procurar o arquivo user.txt para responder as questões do tryhackme, procurei e achei botando o comando cd /, para entrar na raíz do servidor
+![bandicam 2024-11-06 06-08-07-958](https://github.com/user-attachments/assets/2b5617ee-b92b-43bd-a442-020fd481cec4)
+
+conseguimos achar, agora é a hora de escalar privilégios na máquina, pra pegar o root.txt, pois não temos permissão pra entrar no /root, tentei usar o sudo -l e percebi que não precisamos pegar info 
+pra escalar, só um sudo su, ele já coloca o usuario como root
+
+![bandicam 2024-11-06 06-09-01-643](https://github.com/user-attachments/assets/767b1e21-d1d8-4887-8634-b92d44d7f83a)
+
+
+agora que conseguimos, é só responder a segunda pergunta e terminamos a máquina.
+
