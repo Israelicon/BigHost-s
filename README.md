@@ -23,3 +23,9 @@ o nmap escaneou, e deu o resultado que duas portas estão abertas, ssh e http
 - ssh: é um protocolo seguro que permite acessar e gerenciar dispositivos remotamente através de uma rede. Ele é amplamente utilizado para administrar servidores e computadores de maneira segura, localizada na porta 22
 
 - http: é um protocolo usado para transferir páginas web e outros tipos de dados através da internet. Ele é o protocolo base para a navegação na web. Diferente do SSH, o HTTP não tem criptografia por padrão
+
+podemos colocar o ip no navegador pra ver a pagina do servidor web
+![bandicam 2024-11-06 05-54-32-214](https://github.com/user-attachments/assets/fd249904-9fc0-43c4-9092-61ba16c50a7d)
+
+parece um site pra compra de domínio e hosts
+
