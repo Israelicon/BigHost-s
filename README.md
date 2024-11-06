@@ -31,4 +31,9 @@ parece um site pra compra de domínio e hosts, podemos explorar os diretórios p
 caminho da wordlists 
 ![bandicam 2024-11-06 05-57-55-127](https://github.com/user-attachments/assets/15c94c57-cfe9-4441-98a4-e78aa88ea307)
 
+ele achou index.php e info.php, o info.php pode ser útil quando encontramos uma página vulneravel a LFI
+
+navegando na página podemos ver um diretório chamado "Contat Us"
+![bandicam 2024-11-06 05-58-57-382](https://github.com/user-attachments/assets/398c16bf-5e10-4b12-abca-da81cfcd3e05)
+
 
