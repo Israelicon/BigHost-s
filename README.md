@@ -13,3 +13,8 @@ após receber um IP, vamos pingar ele para verificar se está conectado e acess�
 
 vamos usar o ping no próprio terminal
 ![bandicam 2024-11-06 05-52-57-973](https://github.com/user-attachments/assets/402e63f7-dccc-4ae3-bacf-924e91e2ecbf)
+
+após isso podemos explorar quais serviços estao rodando na máquina, pra isso precisamos de um portscan, um portscan bem famoso é o Nmap, só com o nmap e o ip ele pode mostrar pra gente qual porta está
+aberta e até a versão do serviço que está rodando, mas nesse caso usaremos <nmap 10.10.29.148>
+![bandicam 2024-11-06 05-53-47-126](https://github.com/user-attachments/assets/3c968772-d61c-4ca6-b3f0-911e65049363)
+
